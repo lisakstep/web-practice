@@ -1,0 +1,70 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*width: 80%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    padding: 0 1em;
+    height: 75px !important;
+    width: auto !important;
+}
+
+/*Box of lists*/
+div.box-of-lists {
+    background-color: lightgray;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: dashed darkgray;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.interest-list {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Table*/
+table {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid gray;
+    text-align: left;
+}
+
+td, th {
+    border-bottom: 1px solid gray;
+}
+
+thead tr {
+    border-bottom: 3px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#table-intro {
+    display: none;
+}
